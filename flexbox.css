@@ -51,3 +51,19 @@ header {
     display: inline-block;
 }
 
+.first-item {
+    order: 1;
+}
+
+.last-item {
+    order: -1;
+}
+
+.subscribe {
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+.social {
+    margin-top: 20px;
+    align-self: flex-start;
+}
