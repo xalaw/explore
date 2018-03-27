@@ -45,8 +45,9 @@ header {
     flex-wrap: wrap;
     width: 900px;
     font-size: 0; /* remove image gap */
-    flex-direction: column; /* makes the items flow downward */
+    /* flex-direction: row;  makes the items flow downward */
 }
 .photo-grid img {
     display: inline-block;
 }
+
