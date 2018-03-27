@@ -11,8 +11,14 @@
     justify-content: center;  /* horizontal alignments */
 }
 .menu {
-    border: 1px solid #fff;  /* For debugging */
     width: 900px;
     display:flex;
     justify-content: space-between; /* pushes first and last items to the edges and equally spaces everything in the middle */
+}
+.links {
+    display:flex;
+    justify-content: flex-end;
+}
+.login {
+    margin-left: 20px;
 }
