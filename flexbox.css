@@ -35,3 +35,18 @@ header {
     justify-content: space-between;
     align-items: center; /* vertical alignment */
 }
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+.photo-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 900px;
+    font-size: 0; /* remove image gap */
+    flex-direction: column; /* makes the items flow downward */
+}
+.photo-grid img {
+    display: inline-block;
+}
