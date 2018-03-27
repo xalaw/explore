@@ -82,7 +82,11 @@ header {
 
 .footer-one,
 .footer-three {
-  background-color: #5995DA;
-  flex: initial;
-  width: 300px;
+    background-color: #5995DA;
+    flex: initial;
+    width: 300px;
+}
+
+.signup {
+    margin-left:auto;
 }
